@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "adminuser"
+    },
+    "mongoAdminUsername": {
+      "value": "mongo-admin"
+    },
+    "mongoAdminPassword": {
+      "value": "PkvLJ9uSE5sdEKDsFPZ9DJAC"
+    },
+    "dnsNamePrefix": {
+      "value": "db"
+    },
+    "adminPasswordOrKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHa+9Q2mJANOkoHHdWvn2sp7sYt09XMT5UtMvUMyxcbM2bpN6fdAqlDdSIq6d+pz+B6eLiqByjX2uoUng6el2TGJmOJTUTH1Rh3ya+NsmnTVDNpM5FMfCsLdXDDWRhBMIhOWt6ykcZ5pp2YU0Hj2FeAMQESC1CP1yD0eBe3/RPUMcLtDCI5PTVrWhcoyKbftpGI0/92dpaVcbtXCN+k9ISmlaXs1kHQrP7rxRresHSqFSceiBcbBzXWmIdJuPwGqLN79sAoQjeiqp9/U/8HclSsrpQoVYBsR6+KiqWVQqThYinvwykh2nY4O5y49SJah5tWsh8C6YiK1ALGpf2NQx83kmJXMtJta5K/qG6OyTrJN33KYMpDAPQHQWoTCfmYNWOLx7PTSiXwIh8ojiFwBiWLu6pmPFOv/Qy7/AXnY+zR3d2BWmDimQCqhxEVkuchJq5ycCOxk2u5tiVGW6dAS1wGnDK87EAxfqh4L3n9Fbz26T3bCViL6AzTvwoJ6RM7/ciglDzgwB2f1rhXa2DayKE3F8Z3V7k5YFZtAqvlkSWgiyhmt6/A690HclwWh6ClUdl7uTYPtA2TFjw1E6t97R+M6/BlL26O/3AEAi3Z+X2EbJumegGltRf5T6tpP3niChlEn/2NnKSIqy9WfA6wcvAKx/UgQ6+dvlZok3/4/xURw== developerswebee@Mac-mini-de-Developers.local"
+    },
+    "mongoSSLCertPassword": {
+      "value": "6UF8DVYwXKyxPNgb"
+    }
+  }
+}
