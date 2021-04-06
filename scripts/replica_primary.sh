@@ -190,11 +190,11 @@ fi
 for((i=1;i<=3;i++))
 do
 	let a=$i+$g
-	mongo -u "$mongoAdminUser" -p "$mongoAdminPasswd" "admin" --ssl --sslCAFile /etc/MongoAuthCert.pem --sslAllowInvalidHostnames --eval "printjson(rs.add('10.0.0.${a}:27017'))"
+	mongo -u "$mongoAdminUser" -p "$mongoAdminPasswd" "admin" --ssl --sslCAFile /etc/MongoAuthCert.pem --sslAllowInvalidHostnames --eval "printjson(rs.add('10.1.0.${a}:27017'))"
 	if [[ $? -eq 0 ]];then
-		echo "adding server 10.0.0.${a} successfully"
+		echo "adding server 10.1.0.${a} successfully"
 	else
-		echo "adding server 10.0.0.${a} failed!"
+		echo "adding server 10.1.0.${a} failed!"
 		exit 1
 	fi
 done

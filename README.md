@@ -22,7 +22,7 @@ The config server replica set stores sharding cluster metadata. MongoDB suggests
 
 1 shard is a 4 node replica set. You can shard the data on the replica set. You can also add more replica sets into the sharding cluster.
 
-The nodes are under the same subnet 10.0.0.0/24. Except the router server, the other nodes only have private IP address.
+The nodes are under the same subnet 10.1.0.0/24. Except the router server, the other nodes only have private IP address.
 
 <img src="https://raw.githubusercontent.com/cjsingh8512/azure-cosmosdb-mongodbshardedcluster/users/chsi/images/Mongo Sharded Cluster.png" />
 

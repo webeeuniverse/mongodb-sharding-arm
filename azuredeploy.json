@@ -163,24 +163,24 @@
     "virtualNetworkName": "mongodb-vnet",
     "networkSettings": {
       "virtualNetworkName": "[variables('virtualNetworkName')]",
-      "addressPrefix": "10.0.0.0/16",
+      "addressPrefix": "10.1.0.0/16",
       "subnet": {
         "dse": {
           "name": "dse",
-          "prefix": "10.0.0.0/24",
+          "prefix": "10.1.0.0/24",
           "vnet": "[variables('virtualNetworkName')]"
         }
       },
       "statics": {
         "clusterRange": {
-          "base": "10.0.0.",
+          "base": "10.1.0.",
           "start": 5
         },
-        "configPrimaryIp": "10.0.0.240",
-        "configSecondaryIp1": "10.0.0.241",
-        "configSecondaryIp2": "10.0.0.242",
-        "routerIp": "10.0.0.230",
-        "replicaPrimaryIp": "10.0.0.100"
+        "configPrimaryIp": "10.1.0.240",
+        "configSecondaryIp1": "10.1.0.241",
+        "configSecondaryIp2": "10.1.0.242",
+        "routerIp": "10.1.0.230",
+        "replicaPrimaryIp": "10.1.0.100"
       }
     },
     "configPrimaryOsSettings": {

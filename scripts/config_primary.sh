@@ -141,7 +141,7 @@ fi
 mongo --port 27019 --ssl --sslCAFile /etc/MongoAuthCert.pem --sslAllowInvalidHostnames<<EOF
 use admin
 db.auth("$mongoAdminUser","$mongoAdminPasswd")
-config={_id: "crepset", configsvr: true, members: [{ _id: 0, host: "10.0.0.240:27019" },{ _id: 1, host: "10.0.0.241:27019" },{ _id: 2, host: "10.0.0.242:27019" }]}
+config={_id: "crepset", configsvr: true, members: [{ _id: 0, host: "10.1.0.240:27019" },{ _id: 1, host: "10.1.0.241:27019" },{ _id: 2, host: "10.1.0.242:27019" }]}
 rs.initiate(config)
 exit
 EOF
